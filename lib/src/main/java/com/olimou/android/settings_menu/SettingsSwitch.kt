@@ -88,5 +88,7 @@ class SettingsSwitch : FrameLayout {
         super.setEnabled(enabled)
         btnSwitch.isEnabled = enabled
         btnSwitch.isClickable = enabled
+        txtTitle.isEnabled = enabled
+        txtContent.isEnabled = enabled
     }
 }
